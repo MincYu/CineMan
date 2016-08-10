@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="660.0" prefWidth="1000.0" styleClass="background" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.co.worksap.intern.ui.GeneralController">
+   <top>
+      
+
+   </top>
+   <left>
+
+   </left>
+   <stylesheets>
+      <URL value="@css/background.css" />
+   </stylesheets>
+   <center>
+
+   </center>
+   <top>
+      <AnchorPane prefHeight="54.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="860.0" layoutY="2.0" onMouseClicked="#minimize" prefHeight="52.0" prefWidth="52.0" styleClass="label-xiao" AnchorPane.leftAnchor="860.0" AnchorPane.rightAnchor="88.0" AnchorPane.topAnchor="2.0" />
+            <Label layoutX="948.0" layoutY="2.0" onMouseClicked="#close" prefHeight="52.0" prefWidth="52.0" styleClass="label-close" />
+            <Label layoutX="310.0" layoutY="8.0" prefHeight="41.0" prefWidth="304.0" text="Welcome, Mr Cheney">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="664.0" layoutY="6.0" onMouseClicked="#jump2Main" prefHeight="43.0" prefWidth="47.0" styleClass="label-home" />
+         </children>
+      </AnchorPane>
+   </top>
+   <left>
+      <AnchorPane prefHeight="606.0" prefWidth="220.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="strategy" alignment="CENTER" layoutY="199.0" onMouseClicked="#jump2Strategy" prefHeight="56.0" prefWidth="220.0" styleClass="label-subtitle" text="Sales Strategy" textAlignment="CENTER" textFill="#bfbbbb">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="market" alignment="CENTER" layoutY="255.0" onMouseClicked="#jump2Market" prefHeight="56.0" prefWidth="220.0" styleClass="label-subtitle" text="Member Market" textFill="#bfbbbb">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="498.0" layoutY="197.0" onMouseClicked="#jump2Market" prefHeight="163.0" prefWidth="162.0" styleClass="label-market" />
+            <Label layoutX="146.0" layoutY="212.0" onMouseClicked="#jump2Strategy" prefHeight="147.0" prefWidth="153.0" styleClass="label-strategy" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

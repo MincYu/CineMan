@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="776.0" styleClass="background-center" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.co.worksap.intern.ui.market.DetailedInfoController">
+   <children>
+      <AnchorPane layoutX="63.0" layoutY="28.0" prefHeight="60.0" prefWidth="658.0" styleClass="background-white">
+         <children>
+            <Label layoutX="25.0" layoutY="19.0" text="Region">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="regionLabel" alignment="CENTER" layoutX="137.0" layoutY="17.0" prefHeight="27.0" prefWidth="244.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <PieChart fx:id="pieChart" layoutX="30.0" layoutY="174.0" prefHeight="400.0" prefWidth="566.0" />
+      <Label layoutX="53.0" layoutY="119.0" prefHeight="27.0" prefWidth="304.0" text="Detailed sales custom in these customers ">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="603.0" layoutY="161.0" prefHeight="27.0" prefWidth="132.0" text="Suitable group:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="groupLabel" layoutX="603.0" layoutY="204.0" prefHeight="27.0" prefWidth="160.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

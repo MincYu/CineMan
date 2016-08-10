@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="776.0" styleClass="background-center" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.co.worksap.intern.ui.sales.SalesStrategyController">
+   <children>
+      <AnchorPane layoutX="63.0" layoutY="28.0" prefHeight="93.0" prefWidth="658.0" styleClass="background-white">
+         <children>
+            <Label layoutX="26.0" layoutY="14.0" text="Region">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="region" layoutX="117.0" layoutY="11.0" prefHeight="27.0" prefWidth="172.0" />
+            <ComboBox fx:id="cinema" layoutX="441.0" layoutY="10.0" prefHeight="27.0" prefWidth="172.0" />
+            <Label layoutX="362.0" layoutY="12.0" text="Cinema">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="picker" layoutX="115.0" layoutY="53.0" prefHeight="27.0" prefWidth="229.0" />
+            <Label layoutX="50.0" layoutY="50.0" prefHeight="34.0" prefWidth="35.0" styleClass="label-calendar" />
+            <Button layoutX="382.0" layoutY="53.0" mnemonicParsing="false" onMouseClicked="#OKListener" prefHeight="27.0" prefWidth="59.0" text="OK" />
+         </children>
+      </AnchorPane>
+      <PieChart fx:id="pieChart" layoutX="28.0" layoutY="179.0" prefHeight="337.0" prefWidth="355.0" />
+      <LineChart fx:id="lineChart" layoutX="387.0" layoutY="179.0" prefHeight="340.0" prefWidth="368.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>

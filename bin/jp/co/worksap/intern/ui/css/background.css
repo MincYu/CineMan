@@ -1,0 +1,139 @@
+.background{
+
+	-fx-background-image : url("image/background.png");
+	-fx-background-size: cover;
+}
+
+.special1:hover{
+	-fx-background-color: rgba(109, 112, 120, 0.51);
+}
+.special2:hover{
+	-fx-background-color: rgba(124, 128, 140, 0.51);
+}
+.special3:hover{
+	-fx-background-color: rgba(145, 148, 160, 0.51);
+}
+
+.word:hover{
+	-fx-text-fill: #f5fefc;
+	-fx-background-color: rgba(187, 192, 187, 0.31);
+}
+.word{
+	-fx-text-fill: #e1d7d7;
+	-fx-font-size: 16px;
+	-fx-alignment: center;
+}
+
+.label-close{
+	-fx-background-image : url("image/close.png");
+	-fx-background-size: cover;
+}
+.label-close:hover{
+	-fx-background-image : url("image/close_hover.png");
+	-fx-background-size: cover;
+}
+.label-close:pressed{
+	-fx-background-image : url("image/close.png");
+	-fx-background-size: cover;
+}
+
+.label-xiao{
+	-fx-background-image : url("image/minimize.png");
+	-fx-background-size: cover;
+}
+.label-xiao:hover{
+	-fx-background-image : url("image/minimize_hover.png");
+	-fx-background-size: cover;
+}
+.label-xiao:pressed{
+	-fx-background-image : url("image/minimize.png");
+	-fx-background-size: cover;
+}
+
+.label-subtitle{
+}
+
+.label-subtitle:hover{
+	-fx-background-image: url("image/hover_button.png");
+	-fx-background-size: cover;
+}
+
+.label-subtitle:pressed{
+	-fx-background-image: url("image/click_button.png");
+	-fx-background-size: cover;
+}
+
+.label-subtitle-clicked{
+	-fx-background-image: url("image/selected_button.png");
+	-fx-background-size: cover;
+
+}
+
+.background-center{
+	-fx-background-color: rgba(229, 229, 229, 0.51);
+	-fx-background-size: cover;
+}
+
+.background-white{
+	-fx-background-color: white;
+	-fx-background-size: cover;
+}
+
+.label-calendar{
+	-fx-background-image: url("image/calendar.png");
+	-fx-background-size: cover;
+}
+
+.button.look {
+    -fx-size:13;
+    -fx-border-style:none;
+    -fx-font-size: 10pt;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+	-fx-size:13;
+}
+
+.label-strategy {
+	-fx-background-image: url("image/strategy.png");
+	-fx-background-size: cover;
+}
+
+.label-strategy:pressed{
+	-fx-background-image: url("image/strategy.png");
+	-fx-background-size: cover;
+}
+
+.label-strategy:hover{
+	-fx-background-image: url("image/strategy_hover.png");
+	-fx-background-size: cover;
+}
+
+.label-market {
+	-fx-background-image: url("image/member.png");
+	-fx-background-size: cover;
+}
+
+.lable-market:pressed{
+	-fx-background-image: url("image/member.png");
+	-fx-background-size: cover;
+}
+
+.label-market:hover{
+	-fx-background-image: url("image/member_hover.png");
+	-fx-background-size: cover;
+}
+
+.label-home{
+	-fx-background-image: url("image/home.png");
+	-fx-background-size: cover;
+}
+
+.label-home:hover{
+	-fx-background-image: url("image/home-enter.png");
+	-fx-background-size: cover;
+}
+
+.label-home:pressed{
+	-fx-background-image: url("image/home-clicked.png");
+	-fx-background-size: cover;
+}
+

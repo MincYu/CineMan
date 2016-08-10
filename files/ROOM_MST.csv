@@ -1,0 +1,5 @@
+room_mst_id,room_type,price,price_unit
+1,2D,20,USD
+2,3D,30,USD
+3,VIP,40,USD
+4,IMAX,50,USD

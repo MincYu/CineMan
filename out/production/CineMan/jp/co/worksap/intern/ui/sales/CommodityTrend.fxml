@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="776.0" styleClass="background-center" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jp.co.worksap.intern.ui.sales.CommodityTrendController">
+   <children>
+      <AnchorPane layoutX="63.0" layoutY="28.0" prefHeight="93.0" prefWidth="658.0" styleClass="background-white">
+         <children>
+            <Label layoutX="26.0" layoutY="14.0" text="Region">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="regionLable" alignment="CENTER" layoutX="135.0" layoutY="12.0" prefHeight="27.0" prefWidth="181.0">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <ComboBox fx:id="commodityTpye" layoutX="160.0" layoutY="54.0" prefHeight="27.0" prefWidth="156.0" />
+            <Label layoutX="26.0" layoutY="54.0" prefHeight="27.0" prefWidth="113.0" text="Commodity">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="350.0" layoutY="14.0" prefHeight="23.0" prefWidth="139.0" text="Stock Number">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="stockNumber" layoutX="513.0" layoutY="12.0" prefHeight="27.0" prefWidth="120.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <PieChart fx:id="pieChart" layoutX="2.0" layoutY="179.0" prefHeight="400.0" prefWidth="390.0" />
+      <LineChart fx:id="lineChart" layoutX="387.0" layoutY="179.0" prefHeight="340.0" prefWidth="368.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label layoutX="33.0" layoutY="146.0" prefHeight="27.0" prefWidth="219.0" text="Suitable Allocation in the region">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="392.0" layoutY="146.0" prefHeight="27.0" prefWidth="192.0" text="Suitable price in the region">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="properPriceLable" alignment="CENTER" layoutX="614.0" layoutY="146.0" prefHeight="27.0" prefWidth="72.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
